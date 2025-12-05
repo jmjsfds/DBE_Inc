@@ -181,9 +181,9 @@
         ceoFinishTransition: function() {
             console.log("in ceoFinishTransition");
             //console.log("this.contentsEle.style.opacity =  " + this.contentsEle.style.opacity);
-            if (this.ceoEle.style.zIndex == 10) {
+           /* if (this.ceoEle.style.zIndex == 10) {
                 this.ceoEle.style.zIndex = -10;
-            }/*else{
+            }else{
                 this.ceoEle.style.zIndex = 10;
             }*/
         },
