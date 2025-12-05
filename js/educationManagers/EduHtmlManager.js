@@ -38,7 +38,7 @@
                     /*document.getElementById(contentId).scrollIntoView({block: 'start'});*/
                     if(contentId.slice(0,3) == "ceo"){
                         this.ceoEle.innerHTML = resultHTML;
-                        console.log("this.contentsEle.style.zIndex = " + this.contentsEle.style.zIndex);
+                        //console.log("this.contentsEle.style.zIndex = " + this.contentsEle.style.zIndex);
                         console.log("sending to this.ceoShow()");
                         this.ceoShow();
                     }else{
