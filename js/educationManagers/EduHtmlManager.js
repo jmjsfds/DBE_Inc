@@ -257,7 +257,7 @@
         init: function() {
             console.log("in CeoHTML_Manager init()");
             this.ceoEle = document.getElementById("ceo-contents-id");
-            this.ceoEle.addEventListener("transitionend", this.ceoFinishTransition(), false);
+            //this.ceoEle.addEventListener("transitionend", this.ceoFinishTransition(), false);
             console.log("leaving CeoHTML_Manager init()");
         }
     }
