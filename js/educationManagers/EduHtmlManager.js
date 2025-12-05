@@ -174,7 +174,8 @@
 
         ceoHide: function(){ 
             console.log("In ceoHide()");
-            this.ceoEle.classList.replace("hide-ceo-contents", "show-ceo-contents");
+            this.ceoEle.classList.replace("show-ceo-contents", "hide-ceo-contents");
+            this.ceoEle.style.zIndex = -10;
             console.log("leaving ceoHide()");
         },
 
